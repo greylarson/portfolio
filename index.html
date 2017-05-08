@@ -68,7 +68,7 @@ a:active {
                   <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
                     <li> <a href="index.html#about">About</a> </li>
                     <li> <a href="index.html#contact">Contact</a> </li>
-                    <li> <a href="portfolio.html">Portfolio</a> </li>
+                    <li> <a href="index.html#portfolio">Portfolio</a> </li>
                     <li> </li>
                     </ul>
 
@@ -148,10 +148,7 @@ a:active {
 
         <!-- START: Header Title -->
         <div class="nk-header-title ">
-          <div class="bg-image">
-                <div style="background-image: url('assets/images/darkgrey-01.png');"></div>
-                <div class="bg-image-overlay" style="background-color: rgba(12, 12, 12, 0.6);"></div>
-          </div>
+          
 <div> </div>
 
         </div>
@@ -171,12 +168,12 @@ a:active {
                     <div class="col-lg-8 offset-lg-2 text-xs-center">
                         <div class="nk-gap-4 mt-9"></div>
                         <h2 class="display-4">&nbsp;</h2>
-                        <h2 class="display-4">grey larson</h2>
+                        <h2 class="display-4" id="portfolio">grey larson</h2>
                         <div class="nk-gap mnt-5"></div>
-                        <p>Grey Larson</p>
+                        <p>digital arts creator</p>
                         <p>junior at skyline high school</p>
                       <p>SLC, UT </p>
-                      <p><strong><a href="assets/images/resume.png">RESUME </a></strong></p>
+                      <p><strong><a href="resume.html">RESUME </a></strong></p>
                     </div>
                 </div>
             </div>
@@ -188,29 +185,53 @@ a:active {
         <!-- START: Portfolio -->
         <div class="nk-box bg-white" id="projects">
             <div class="nk-gap-4 mt-5"></div>
-            <h2 class="text-xs-center display-4">favorite projects</h2>
-            <div class="nk-gap mnt-6"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2"> </div>
-                </div>
+            <h2 class="text-xs-center display-4">portfolio</h2>
+<div class="container">
+      <!-- START: Filter -->
+      <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+                <a href="#nk-toggle-filter">
+                    <span class="nk-icon-squares"></span>
+                </a>
             </div>
+            <ul class="nk-isotope-filter">
+                <li class="active" data-filter="*">All</li>
+                <li data-filter="Branding">Branding</li>
+                <li data-filter="Print">Print</li>
+                <li data-filter="Photography">Photography</li>
+                <li data-filter="Design">Design</li>
+                <li data-filter="Programming">Programming</li>
+            </ul>
+            <!-- END: Filter -->
 
-            <div class="nk-gap-2 mt-12"></div>
-            <div class="container">
             <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols">
 
 
-                <div class="nk-isotope-item" data-filter="Mockup">
+                <div class="nk-isotope-item" data-filter="Print">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="p_flowerShirt.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-7-sm.jpg');"></div>
+                            <div style="background-image: url('assets/images/thumbnail/flowerShirtVector-01.png');"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Vinyl Record</h2>
-                                <div class="portfolio-item-category">Mockup</div>
+                                <h2 class="portfolio-item-title h3">T Shirt V2</h2>
+                                <div class="portfolio-item-category">Print</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="nk-isotope-item" data-filter="Print">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="p_catShirt.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/thumbnail/catShirt.png');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">T Shirt</h2>
+                                <div class="portfolio-item-category">Print</div>
                             </div>
                         </div>
                     </div>
@@ -221,12 +242,28 @@ a:active {
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
                         <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-4-sm.jpg');"></div>
+                            <div style="background-image: url('assets/images/thumbnail/catShirtVector-01.png');"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Modern T-Shirt</h2>
+                                <h2 class="portfolio-item-title h3">T Shirt Design</h2>
                                 <div class="portfolio-item-category">Print</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="nk-isotope-item" data-filter="Design">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="p_summerConf.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('assets/images/thumbnail/summerConf-01.png');"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
+                            <div>
+                                <h2 class="portfolio-item-title h3">I have an idea</h2>
+                                <div class="portfolio-item-category">Design</div>
                             </div>
                         </div>
                     </div>
@@ -235,13 +272,13 @@ a:active {
 
                 <div class="nk-isotope-item" data-filter="Branding">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="p_skylineBanner.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-5-sm.jpg');"></div>
+                            <div style="background-image: url('assets/images/thumbnail/skylineBanner-01.png');"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Minimal Bag</h2>
+                                <h2 class="portfolio-item-title h3">Skyline web banner</h2>
                                 <div class="portfolio-item-category">Branding</div>
                             </div>
                         </div>
@@ -251,13 +288,13 @@ a:active {
 
                 <div class="nk-isotope-item" data-filter="Design">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="p_iceberg.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-9-sm.jpg');"></div>
+                            <div style="background-image: url('assets/images/thumbnail/iceberg-01.png');"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Clean &amp; Groovy</h2>
+                                <h2 class="portfolio-item-title h3">Isometric iceberg</h2>
                                 <div class="portfolio-item-category">Design</div>
                             </div>
                         </div>
@@ -267,13 +304,13 @@ a:active {
 
                 <div class="nk-isotope-item" data-filter="Design">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="p_cartoonMe.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-3-sm.jpg');"></div>
+                            <div style="background-image: url('assets/images/thumbnail/cartoonMe-01.png');"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Minimal Mobile App</h2>
+                                <h2 class="portfolio-item-title h3">Cartoon Grey</h2>
                                 <div class="portfolio-item-category">Design</div>
                             </div>
                         </div>
@@ -281,32 +318,16 @@ a:active {
                 </div>
 
 
-                <div class="nk-isotope-item" data-filter="Print">
+                <div class="nk-isotope-item" data-filter="Design">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="p_bookCover.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-8-sm.jpg');"></div>
+                            <div style="background-image: url('assets/images/thumbnail/bookCover-01.png');"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">White T-Shirt</h2>
-                                <div class="portfolio-item-category">Print</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="nk-isotope-item" data-filter="Branding">
-                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-2-sm.jpg');"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Business Card</h2>
-                                <div class="portfolio-item-category">Branding</div>
+                                <h2 class="portfolio-item-title h3">Book cover redesign</h2>
+                                <div class="portfolio-item-category">Design</div>
                             </div>
                         </div>
                     </div>
@@ -315,29 +336,13 @@ a:active {
 
                 <div class="nk-isotope-item" data-filter="Photography">
                     <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <a href="p_lincoln.html" class="nk-portfolio-item-link"></a>
                         <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-6-sm.jpg');"></div>
+                            <div style="background-image: url('assets/images/thumbnail/lincoln-01.png');"></div>
                         </div>
                         <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
                             <div>
-                                <h2 class="portfolio-item-title h3">Heja Stockholm</h2>
-                                <div class="portfolio-item-category">Photography</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="nk-isotope-item" data-filter="Photography">
-                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="portfolio-single.html" class="nk-portfolio-item-link"></a>
-                        <div class="nk-portfolio-item-image">
-                            <div style="background-image: url('assets/images/portfolio-12-sm.jpg');"></div>
-                        </div>
-                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-xs-center">
-                            <div>
-                                <h2 class="portfolio-item-title h3">Paper Bag</h2>
+                                <h2 class="portfolio-item-title h3">Lincoln fixed up</h2>
                                 <div class="portfolio-item-category">Photography</div>
                             </div>
                         </div>
@@ -345,10 +350,14 @@ a:active {
                 </div>
 
             </div>
-            </div>
-            <div class="nk-gap-4 mt-15"></div>
+</div>
         </div>
-        <!-- END: Portfolio -->
+
+        <!-- START: Pagination -->
+        <div class="nk-pagination nk-pagination-center">
+            <a href="#">MORE</a>
+        </div>
+        <!-- END: Pagination -->
 
         
 
@@ -395,7 +404,7 @@ a:active {
                         <div class="nk-gap-1"></div>
                         <div class="nk-form-response-success"></div>
                         <div class="nk-form-response-error"></div>
-                        <button class="nk-btn">Send Message</button>
+                        <button href="mailto:greydlarson@gmail.com" class="nk-btn">Send Message</button>
                     </form>
                     <!-- END: Form -->
                 </div>
