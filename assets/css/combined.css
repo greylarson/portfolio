@@ -6301,12 +6301,12 @@ b,strong {
 /* navbar color when on top */
 .nk-navbar.nk-navbar-transparent {
   background-color: #000;
-  opacity: 1.;
+  opacity: .9;
 }
 /* navbar color when scrolling */
 .nk-navbar,.nk-navbar.nk-navbar-solid {
   background-color: #000;
-	opacity: .95;
+	opacity: .9;
 }
 
 .nk-navbar.nk-navbar-transparent-always {
